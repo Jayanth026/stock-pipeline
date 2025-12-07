@@ -82,7 +82,7 @@ Update `STOCK_SYMBOL` if you want to ingest a different stock.
 
 ## How to Build & Run the Pipeline
 
-### **1️⃣ Build and Start the Services**
+### ** Build and Start the Services**
 
 In your project directory:
 
@@ -102,7 +102,7 @@ Allow containers to fully start (10–20 seconds).
 
 ---
 
-### **2️⃣ Access Airflow UI**
+### ** Access Airflow UI**
 
 Open your browser:
 
@@ -117,13 +117,13 @@ Password: admin123   (or whatever password you set)
 
 ---
 
-### **3️⃣ Enable and Trigger the DAG**
+### ** Enable and Trigger the DAG**
 
 Inside Airflow:
 
 1. Locate **stock_market_pipeline**
 2. Toggle the DAG to **ON**
-3. Click ▶️ **Trigger DAG**
+3. Click **Trigger DAG**
 
 You will see the task `fetch_and_store_stock_data` execute.
 
@@ -159,7 +159,7 @@ You should see stock price entries for each day returned by the API.
 
 ---
 
-## ♻️ Stopping the Pipeline
+## Stopping the Pipeline
 
 ```bash
 docker compose down
