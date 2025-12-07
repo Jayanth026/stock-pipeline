@@ -60,7 +60,7 @@ https://www.alphavantage.co/support/#api-key
 
 ---
 
-## ⚙️ Environment Setup ('.env' file)
+## Environment Setup ('.env' file)
 
 Create a '.env' file in the project root with:
 
@@ -80,7 +80,7 @@ Update `STOCK_SYMBOL` if you want to ingest a different stock.
 
 ---
 
-## 🚀 How to Build & Run the Pipeline
+## How to Build & Run the Pipeline
 
 ### **1️⃣ Build and Start the Services**
 
@@ -106,7 +106,7 @@ Allow containers to fully start (10–20 seconds).
 
 Open your browser:
 
-👉 http://localhost:8080
+- http://localhost:8080
 
 Use the login credentials created during initialization:
 
